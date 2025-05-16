@@ -1,0 +1,1016 @@
+
+/*Esto se utiliza para seleccionar y editar todo*/
+/* *{
+
+  margin: 0px ;  Esto es para darle mas espacio al exterior
+   padding: 0px ;  Esto es para darle mas espacio al interior
+
+}  */
+
+
+
+/*///////////////////// STYLE FOR INDEX /////////////////////////*/
+
+body{
+ 
+
+ background-color: #000000;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0; /* Remove default margin */
+ padding: 0; /* Remove default padding */
+ height: 100vh; /* Full viewport height */
+ display: flex; /* Use flexbox */
+ justify-content: center; /* Center horizontally */
+
+}
+
+
+#titulo{
+
+
+  font-size: 20;
+  color: rgb(19, 160, 19);
+  padding-right: 0px;
+  margin-right: 400px;
+  margin-left: 20px;
+  font-family: 'monospace';
+
+}
+
+/* Esto se utiliza para identificar un id*/
+#container{
+
+  
+
+width: 1200px;
+/*border: 3px solid black;*/
+margin: 0px auto; 
+justify-content: center; /* Center horizontally */
+display: flex; /* Use flexbox */
+
+}
+
+header{
+  
+  line-height: 50px; /* Esto es para llevar la el texto al centro*/
+  text-align: center; /* This is what makes the content go to the center*/
+  height: 200x;
+  width:  1100px;
+  
+  
+}
+
+.top-menu {
+  list-style-type: none; /* This is line is to make sure that the list isn't going to have any dots or sometime to identify that is a list*/
+  padding: 0; /* This one is to make sure that they will be togheter */
+  margin: 0;
+  display: flex;
+}
+
+.top-menu li {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+ 
+
+}
+
+.top-menu a:hover {
+  background-color: rgb(4, 224, 4);;
+  list-style: none;
+  padding: 15px;
+  color: #000000;
+}
+
+header {
+  
+  background-color: #1d1d1d;
+  padding-top: 0%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+a {
+  text-decoration: none; /* Removes the underline */
+  color: white;
+}
+
+#My-work {
+    
+  font: small-caps 100%/200% serif;
+    margin-left: 100px;
+    margin-top: 120px;
+    color: rgba(255, 255, 255, 0.822);
+
+    
+   
+ }
+
+ .Projects {
+
+     margin-top: 0px;
+
+ }
+
+ nav[class="Projects"] li { /* This line is used to help me to select all of the <li> in the specific nav that has the class called: "Projects".  */
+  padding: 1px;
+  list-style: none;
+  font-weight: bold; /* Example style */
+
+}
+
+.horizontal-list {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap;  
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  
+  margin-top: 30px; /* Remove default margin */
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+img {
+     
+    margin-bottom: 10px;
+    border-color: #3dad21d5;
+    border-style:solid;
+    border-width: 1px;
+    width: 300px; /* Makes the image take the full width of its parent */
+    height: 300px; /* Maintains the aspect ratio */
+    margin-right: 50px;
+    transition: transform 0.3s ease; /* Smooth transition */
+  
+}
+
+.hover-image {
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.hover-image:hover {
+  transform: scale(1.1); /* Scale image on hover */
+}
+
+p {
+
+   
+   color: #3dad21d5;
+   margin-top: 0px;
+ 
+}
+
+h1 {
+
+text-align: left;
+ color:white;
+ justify-content: center;
+ display: flex;
+ 
+}
+
+footer {
+
+ color: white;
+ justify-content: center;
+ display: flex;
+ box-sizing: border-box;
+ margin-bottom: 0%;
+ 
+}
+
+/*///////////////////// STYLE FOR CALCULATOR /////////////////////////*/
+
+
+ #Calculator {
+  padding: 0px;
+  margin: 0px;
+  /* height: 100vh; */
+  display: flexbox;
+  font-family: Arial, sans-serif;
+  
+   border: circle;
+   border: 0.1px;
+   border-color: hsl(0, 0%, 50%);
+   border-style: solid;
+   border-radius: 5px;
+   background-color: hsl(0, 0%, 10%);
+   max-width: 400px;
+
+
+border: 2px solid #333;
+overflow: hidden; /* Prevent content from overflowing (hides overflow) */
+box-sizing: border-box; /* Ensures padding and border are included in the element's total size */
+
+}
+    
+
+.center-calculator {
+margin-top: 30px;
+display: flex;
+justify-content: center;
+
+}
+
+#keys{
+display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 0.3fr);
+  gap: 5px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 6%);
+ 
+}
+
+#keys button {
+
+margin-left: 10px;
+font-size: 30px;
+height: 70px;
+ width: 70px;
+ margin-bottom: 10px;
+ border-radius: 50px;
+ border: none;
+ color: white;
+ background-color: hsl(0, 0%, 26%);
+}
+
+#keys button:hover{
+
+   background-color: hsl(0, 0%, 40%);
+
+}
+
+
+
+#display {
+
+ 
+ 
+  font-size: 3rem;
+  background-color: hsl(0, 0%, 10%);
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: aliceblue;
+  
+
+} 
+
+#keys .operators {
+   
+   background-color: hsl(35, 90%, 47%);
+   
+}
+
+
+
+/*///////////////////// STYLE FOR POMODORO TIMER /////////////////////////*/
+
+#PomodoroH1{
+
+  margin-top: 50px;
+}
+
+#pomodoro:hover{
+
+  background-color: hsla(0, 99%, 40%, 0.521);
+  color: black;
+  border-radius: 5px;
+
+}
+#shortBreak:hover{
+
+  background-color: rgb(0, 124, 128);
+  color: black;
+  border-radius: 5px;
+
+}
+
+#longBreak:hover{
+
+  background-color: rgba(0, 55, 128, 0.911);
+  color: black;
+  border-radius: 5px;
+
+}
+
+#PomodoroMenu {
+ 
+  
+ 
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  
+ 
+  }
+
+  /* #PomodoroMenu button{
+    
+    margin-top: 50px;
+    margin-right: 6px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+    font-size:21px;
+    font-family: Sans-serif;
+    font-weight: bold;
+    border:none;
+    background: none;
+
+  } */
+
+  #pomodoro{
+
+    margin-top: 50px;
+    margin-right: 6px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+    font-size:21px;
+     font-family: 'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: bold;
+    border:none;
+    background: none;
+  }
+  #shortBreak{
+
+    margin-top: 50px;
+    margin-right: 6px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+    font-size:21px;
+    font-family: Sans-serif;
+    font-weight: bold;
+    border:none;
+    background: none;
+  }
+  #longBreak{
+
+    margin-top: 50px;
+    margin-right: 6px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+    font-size:21px;
+    font-family: Sans-serif;
+    font-weight: bold;
+    border:none;
+    background: none;
+  }
+
+  #pomodoro.pressed{
+
+    background-color: hsla(0, 62%, 30%, 0.753);
+    color: black;
+    border-radius: 5px;
+        
+        
+  
+    }
+  
+    #shortBreak.pressed{
+  
+  background-color: rgb(0, 124, 128);
+  color: black;
+  border-radius: 5px;
+
+          
+    
+      }
+      #longBreak.pressed{
+  
+        background-color: rgba(0, 55, 128, 0.911);
+  color: black;
+  border-radius: 5px;
+            
+      
+        }
+
+  #pomodoroBody{
+
+    /* hsla(120, 100%, 25%, 0.212) */
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 10cm;
+    margin-top: 50px;
+    border: white 1px;
+    border-style: none;
+    border-radius: 15px;
+    background-color:hsl(0, 0%, 20%);
+  }
+
+  #countDown{
+
+    color: white;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 110px;
+    font-family: 'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    justify-content: center; /* Center horizontally */
+    width: 100%;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    box-sizing: border-box;
+    
+  }
+
+ .my-button {
+
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'ArialRounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 40px;
+    justify-content: center; /* Center horizontally */
+    background-color: rgba(60, 105, 31, 0.425);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    transition: background-color 0.5s ease-in-out;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    
+  }
+
+  
+
+    /* Estilo cuando el botón ha sido presionado */
+    .my-button.pressed {
+      background-color: rgba(255, 0, 0, 0.363); /* Cambia el color de fondo */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+      border: none;
+      
+    }
+
+    
+    /*///////////////////// STYLE FOR JUEGO DE TRIVIAS /////////////////////////*/
+
+
+   #juegoDeTriviaTitle {
+
+    font-family: 'Open Sans', sans-serif;
+      font-size: 50px;
+      padding-right: 100px;
+      margin-top: 30px;
+
+    }
+
+    #lineaDeSeparacion{
+  
+      color: white;
+      margin-left: 105px;
+      font-size: 30px;
+      margin-bottom: 50px;
+
+
+    }
+
+
+    .botonesJuegoDeTrivia {
+
+      margin-left: 255px;
+      margin-top: 150px;
+
+
+    }
+
+
+    .botonesJuegoDeTrivia a{
+     
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     font-size: 25px;
+     padding-top: 30px;
+     padding-bottom: 38px;
+     padding-left: 40px;
+     padding-right: 40px;
+     border-radius: 7px;
+    
+     
+    }
+
+    #botonDeIngresar {
+ 
+     background-color: #4f4e4e;
+     color: white; 
+     margin-right: 70px;
+     padding-left: 50px;
+     padding-right: 50px;
+
+    }
+
+    #botonDeRegistrarse {
+ 
+      background-color: #e1dcdc;
+      color:black; 
+ 
+     }
+
+     #botonDeIngresar:hover {
+ 
+      background-color: rgba(9, 112, 9, 0.541);
+      color: black; 
+      
+    }
+
+    #botonDeRegistrarse:hover {
+ 
+      background-color: rgba(255, 0, 0, 0.363);
+      color: white; 
+      
+    }
+
+    #imagenesDeIconos{
+
+      border: none;
+      height: 40;
+      width: 40;
+      padding-right: 0px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      
+
+    }
+
+
+    #menuDeIngreso {
+      
+      margin-top: 0px;
+      margin-left: 320px;
+
+    }
+
+    .entradasDeTexto{
+
+     
+      font-size: 30px;
+      padding-top: 20px;
+      max-width: 270px;
+      border: none;
+      box-sizing: border-box;
+      background: none;
+      color: rgba(255, 255, 255, 0.589);
+      margin-bottom: 10px;
+      outline: none;
+      
+    }
+
+    #lineaParaIngresar1{
+      
+      
+      max-width: 330px;
+      padding: 0px;
+      height: 4px;
+      background-color: rgba(0, 128, 0, 0.733);
+      margin-bottom: 50px;
+      
+    }
+    #lineaParaIngresar2{
+
+      max-width: 330px;
+      padding: 0px;
+      height: 4px;
+      margin-bottom: 50px;
+      background-color: rgba(255, 0, 0, 0.651);
+      
+    }
+
+    a #botonDeIngresarLuegoDePonerCuenta{
+
+     
+     font-family: 'Open Sans', sans-serif;
+     border: none;
+     font-weight: bold;
+     font-size: 20px;
+     padding-top: 46px;
+     padding-bottom: 33px;
+     padding-left: 50px;
+     padding-right: 50px;
+     border-radius: 12px;
+     margin-top: 40px;
+     background-color: #199d5d;
+     color: black;
+     
+
+
+     
+
+    }
+
+    a #botonDeIngresarLuegoDePonerCuenta2{
+
+      font-family: 'Open Sans', sans-serif;
+      border: none;
+      font-weight: bold;
+      font-size: 18px;
+      padding-top: 30px;
+      padding-bottom: 33px;
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 12px;
+      margin-top: 10px;
+      background-color: #b44d2d;
+      color: black;
+      
+ 
+     }
+
+     a #botonDeIngresarLuegoDePonerCuenta3{
+
+      font-family: 'Open Sans', sans-serif;
+      border: none;
+      font-weight: bold;
+      font-size: 20px;
+      padding-top: 42px;
+      padding-bottom: 33px;
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 12px;
+      margin-top: 10px;
+      background-color: #b1ab5e;
+      color: black;
+      
+     }
+
+
+
+    #botonDeIngresarLuegoDePonerCuenta:hover{
+      
+      border: none;
+      background-color: rgba(0, 128, 0, 0.363);
+      color: white;
+
+    }
+
+    #botonDeIngresarLuegoDePonerCuenta2:hover{
+      
+      border: none;
+      background-color: rgba(0, 128, 0, 0.363);
+      color: white;
+
+    }
+
+    #botonDeIngresarLuegoDePonerCuenta3:hover{
+      
+      border: none;
+      background-color: rgba(0, 128, 0, 0.363);
+      color: white;
+
+    }
+
+    #lineaParaIngresar3{
+
+      max-width: 330px;
+      padding: 0px;
+      height: 2px;
+      margin-bottom: 50px;
+      background-color: white;
+      
+    }
+
+
+#botonUno{
+
+  
+  height: 170px;
+  width: 230px;
+  display: inline-block; 
+  margin-right: 50px;
+
+  word-wrap: break-word
+
+
+}
+
+#botonDos{
+
+  height: 170px;
+  width: 230px;
+  font-size: 16px;
+  display: inline-block; 
+  margin-right: 10px;
+  margin-right: 50px;
+  word-wrap: break-word
+
+}
+
+#botonTres{
+
+  height: 170px;
+  width: 230px;
+  display: inline-block;
+
+  word-wrap: break-word
+
+}
+
+#menuDeJuego{
+
+  margin-top: 0px;
+  margin-left: 100px;
+
+
+}
+
+
+
+.questionQuizGame1{
+
+   max-width: 700px;
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-bottom: 30px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   color: black;
+   border-style: solid;
+   border-color: #dadadaaf;
+   border-radius: 2px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #dadadaaf;
+
+}
+
+#quizGame{
+   
+  text-align: center;
+  max-width: 850px;
+  height: 650px;
+  border-color: #4069558a;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 96px;
+  background-color: black;
+
+}
+
+#quizGamesButton{
+
+  margin-bottom: 10px;
+
+}
+
+.btn{
+
+  width: 390px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #030303;
+  background-color: #ffffffb2;
+  cursor: pointer;
+
+}
+
+.btn:disabled{
+
+  cursor: no-drop;
+  
+
+}
+
+.btn:hover:not([disabled]){
+
+  background-color: #ffffff6e;
+  color: #ffffffc4;
+
+
+}
+
+
+
+#quizImage{
+
+  width: 550px;
+  margin-left: 28px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border-style: none;
+
+}
+
+#quizBtn:hover{
+
+  background-color: red;
+
+}
+
+
+
+    footer {
+
+margin-top: 600px;
+    }
+
+    .correct{
+
+      background-color: #59d68f;
+
+    }
+
+    .incorrect{
+
+      background-color: #e56b6b;       
+
+    }
+ 
+    .nextBtn {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      width: 197px;
+      padding-right: 0px;
+      font-size: 23px;
+      color: rgba(255, 255, 255, 0.909);
+      background-color: transparent;
+      margin-left: 693px;
+      border-style: none;
+      border-color: rgba(255, 255, 255, 0.865);
+      margin-top: 28px;
+  }
+
+   
+    .imgOfNextBtn {
+      width: 36px;         /* Adjust size as needed */
+      height: 22px;
+      vertical-align: middle;
+      margin-top: 8px;
+      margin-left: 1px;    /* Adds space between text and image */
+      border-style: none;
+      
+    }
+
+    .nextBtn:hover {
+     cursor: pointer;
+  }
+
+  .tryAgain{
+
+    background-color: #ffffffb2;
+    color: black;
+    margin-right: 0px;
+    margin-top: 20px;
+    width: 300px;
+    height: 90px;
+    border-radius: 5px;
+    border-color: #000000c7;
+    border-width: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+  }
+
+  .questionQuizGame2{
+
+    
+    max-width: 700px;
+    margin-top:100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: #dadadaaf;
+    border-radius: 2px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #53be1938;
+ 
+ }
+
+ #aboutMe{
+
+  text-align: center;
+  max-width: 650px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  height: 410px;
+  border-color: #4069558a;
+  color: rgba(255, 255, 255, 0.946);
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 160px;
+  background-color:#233d3044;
+
+
+ }
+
+ #aboutMeTittle{
+
+  margin-right: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 34px;
+  color: rgba(255, 255, 255, 0.985);
+
+
+
+ }
+
+  #contactMe{
+
+  max-width: 400px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 90px;
+  height: 400px;
+  border-color: #4550cdcb;
+  color: rgba(255, 255, 255, 0.782);
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 280px;
+  background-color: rgba(63, 22, 159, 0.122);
+
+ }
+
+ #myWorkTittle{
+
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-right: 110px;
+  color: rgba(255, 255, 255, 0.822);
+
+ }
+
+ .contactMeList {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.contactMeItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom-style: solid;
+  border-color: #4550cdcb;
+  border-radius: 8px;
+  margin-right: 150px;
+  padding-top: 5px;
+  padding-left: 0px;
+
+
+
+}
+
+.contactMeColors:hover {
+
+  color: blue;
+
+
+}
+
+.contactMeIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  margin-left: 30px;
+  border: none;
+  
+}
+
+#contactMeTitle{
+
+  margin-left: 20px;
+  font-size: 30px;
+  margin-bottom: 80px;
+
+
+
+}

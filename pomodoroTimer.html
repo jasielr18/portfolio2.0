@@ -1,0 +1,82 @@
+<DOCTYPE html>
+    <html>
+   
+   <head>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=8WP2o41VRo2f&format=png&color=000000">
+     <meta charset="utf-8">
+     
+     <title>Pomodoro</title>
+    
+     <link rel="stylesheet" href="estilos.css">
+     
+   </head> 
+   
+   <header>
+
+        <nav>
+              <ul class="top-menu">
+        
+          <li id="Titulo">Jasiel Ramirez Suriel</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutMe.html">About me</a></li>
+          <li><a href="contactMe.html">Contact me</a></li>
+          
+      </ul>
+        </nav>
+
+
+    </header>
+   
+ 
+
+   <body >
+
+    <h1 id="PomodoroH1">POMODORO TIMER</h1>
+   
+    <div id="pomodoroBody">
+
+        
+
+       <div id="PomodoroMenu"> 
+
+          <div id="pomodoroBorder">
+            <button id="pomodoro">Pomodoro</button>
+            <button id="shortBreak">Short Break</button>
+            <button id="longBreak">Long Break</button>
+
+            <p id="countDown"> 25:00</p>
+            <button id="startButton"  class="my-button" onclick="audio.play();">Start</button>
+          
+          
+          </div>
+          
+        
+     
+
+
+       </div>
+
+
+
+    </div>
+
+       
+    
+
+    
+    <footer style="text-align: center; padding: 20px; font-size: 17px; color:#777 ;">
+      ©  <span id="year"></span>Jasiel Ramirez Portfolio | All rights reserved.
+    </footer>
+    
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+
+   </body>
+   
+  
+
+   <script src="javascript.js"></script>
+   
+   </html>

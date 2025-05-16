@@ -1,0 +1,85 @@
+<DOCTYPE html>
+    <html>
+    
+    <head>
+      <meta charset="utf-8">
+      <title>Trivia Game</title>
+    
+      <link rel="stylesheet" href="estilos.css">
+    
+    </head>
+   
+    <header>
+
+         <nav>
+               <ul class="top-menu">
+        
+          <li id="Titulo">Jasiel Ramirez Suriel</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutMe.html">About me</a></li>
+          <li><a href="contactMe.html">Contact me</a></li>
+          
+      </ul>
+         </nav>
+ 
+ 
+     </header>
+
+    
+    <body>
+
+   
+
+<div id="containerTrivia">
+
+    <h1 id="juegoDeTriviaTitle">Ingreso</h1>
+
+    <p id="lineaDeSeparacion">___________________________________________________</p>
+
+<div id="menuDeIngreso">
+
+    <ul>
+
+        <li>
+            <img id="imagenesDeIconos"  src="Images\iconoDeIngresar.jpg" alt="Propiedadas">
+            <input class="entradasDeTexto"  type="Username" placeholder="Username" maxlength="20">
+            <p id="lineaParaIngresar1"> </p>
+    
+        </li>
+        <li>
+            <img id="imagenesDeIconos" src="Images\iconoDePassword.jpg" alt="">
+            <input class="entradasDeTexto" type="Password" placeholder="Password" maxlength="20">
+            <p id="lineaParaIngresar2"> </p>
+    
+        </li>
+
+        <li>
+            <a href="modoDeJuego.html">
+            <button id="botonDeIngresarLuegoDePonerCuenta">Ingresar</button>
+        </li>
+
+
+    </ul>
+
+
+</div>
+
+
+
+<footer style="text-align: center; padding: 20px; font-size: 17px; color:#777 ;">
+    ©  <span id="year"></span>Jasiel Ramirez Portfolio | All rights reserved.
+  </footer>
+  
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+        
+        <script src="javascript.js"></script>
+
+    </body>
+    
+    
+    
+    
+    
+    </html>

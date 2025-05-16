@@ -17,7 +17,7 @@ const questions = [
     },
     {
         question: "¿Cuál es el planeta más cercano al Sol?",
-        image: "/Images/planets.avif",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREVBNyVYlDXbcD8QtMjQJ7qtBdDoOShASMxA&s",
         answers:[
             {text: "Venus", correct: false},
             {text: "Mercurio", correct: true},
@@ -28,7 +28,7 @@ const questions = [
     },
     {
         question: "¿Cuál es el océano más grande del planeta?",
-        image: "/Images/ocean.avif",
+        image: "https://concepto.de/wp-content/uploads/2018/09/oc%C3%A9ano-e1537912452874.jpg",
         answers:[
             {text: "Océano Pacífico", correct: true},
             {text: "Océano Índico", correct: false},
@@ -39,7 +39,7 @@ const questions = [
     },
     {
         question: "¿Quién pintó la famosa obra 'La Mona Lisa'?",
-        image: "/Images/monaLisa.avif",
+        image: "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DVKgK.img?w=768&h=432&m=6&x=551&y=170&s=67&d=67",
         answers:[
             {text: "Pablo Picasso", correct: false},
             {text: "Claude Monet", correct: false},
@@ -50,7 +50,7 @@ const questions = [
     },
     {
     question: "¿En qué continente se encuentra Egipto?",
-    image: "/Images/mapaMundi.avif",
+    image: "https://t4.ftcdn.net/jpg/00/07/09/07/360_F_7090752_dm056bzW4rIbMvs428OODJQKkBQnSF8w.jpg",
     answers: [
         { text: "Asia", correct: false },
         { text: "África", correct: true },
@@ -60,7 +60,7 @@ const questions = [
 },
 {
     question: "¿Cuál es el órgano más grande del cuerpo humano?",
-     image: "/Images/anatomia.avif",
+     image: "https://www.shutterstock.com/shutterstock/videos/3677055339/thumb/8.jpg?ip=x480",
     answers: [
         { text: "Hígado", correct: false },
         { text: "Cerebro", correct: false },
@@ -90,7 +90,7 @@ const questions = [
 },
 {
     question: "¿Cuál fue la primera película de animación de Disney?",
-    image: "/Images/disney.avif",
+    image: "https://wallpapers.com/images/featured/disney-has6vy47k75d0bzs.jpg",
     answers: [
         { text: "Pinocho", correct: false },
         { text: "Dumbo", correct: false },
@@ -100,7 +100,7 @@ const questions = [
 },
 {
     question: "¿Cuántos días tiene un año bisiesto?",
-    image: "/Images/años.avif",
+    image: "https://concepto.de/wp-content/uploads/2013/05/tiempo-2-1-e1590450612212.jpg",
     answers: [
         { text: "364", correct: false },
         { text: "365", correct: false },

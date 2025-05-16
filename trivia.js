@@ -70,7 +70,7 @@ const questions = [
 },
 {
     question: "¿En qué año comenzó la Segunda Guerra Mundial?",
-    image: "/Images/guerra.avif",
+    image: "https://historiauniversal.org/wp-content/uploads/segunda-guerra-mundial-1024x680.jpg.webp",
     answers: [
         { text: "1914", correct: false },
         { text: "1939", correct: true },
@@ -80,7 +80,7 @@ const questions = [
 },
 {
     question: "¿Cuál es el idioma más hablado en el mundo?",
-    image: "/Images/flags.avif",
+    image: "https://images.unsplash.com/photo-1592487501226-7ed5e5dc80f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     answers: [
         { text: "Inglés", correct: false },
         { text: "Español", correct: false },

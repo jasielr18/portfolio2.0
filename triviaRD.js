@@ -6,7 +6,7 @@
 const questions = [
     {
         question: "¿En qué año se proclamó la independencia de la República Dominicana?",
-        image: "/Images/independenciaRD.webp",
+        image: "https://noticiassin.com/wp-content/uploads/2024/02/40e1121d-independencia-dominicana-5e59a26579b0e.jpg",
         answers: [
             { text: "1821", correct: false },
             { text: "1844", correct: true },
@@ -16,7 +16,7 @@ const questions = [
     },
     {
         question: "¿Quién fue el líder del movimiento independentista dominicano La Trinitaria?",
-        image: "/Images/La-Trinitaria.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyDleg5gt_VmvT4GCiIEq4-XpyU2PWw51Ag&s",
         answers: [
             { text: "Pedro Santana", correct: false },
             { text: "Juan Pablo Duarte", correct: true },
@@ -26,7 +26,7 @@ const questions = [
     },
     {
         question: "¿Qué ocurrió el 27 de febrero de 1844?",
-         image: "/Images/27DeFebrero.webp",
+         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-hv4oA58eplaVUISbK2-Xy396DRSxj4VsYw&s",
         answers: [
             { text: "La abolición de la esclavitud", correct: false },
             { text: "La anexión a España", correct: false },
@@ -36,7 +36,7 @@ const questions = [
     },
     {
         question: "¿Qué significó la Guerra de la Restauración (1863-1865)?",
-        image: "/Images/restauracion.jpeg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFDOVrAMiN_Ax-ZCkBGUQLFbpBKIrJ_4lC_A&s",
         answers: [
             { text: "La independencia de Haití", correct: false },
             { text: "Independencia tras anexión por España", correct: true },
@@ -46,7 +46,7 @@ const questions = [
     },
     {
         question: "¿Dónde se disparó el trabucazo que marcó el inicio de la independencia?",
-         image: "/Images/trabucazo.png",
+         image: "https://i.ytimg.com/vi/5x1-sjtEOCo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBl8HmHzF6saP0v1umHJFT4cljqYA",
         answers: [
             { text: "En la Puerta del Conde", correct: true },
             { text: "En Santiago", correct: false },
@@ -56,7 +56,7 @@ const questions = [
     },
     {
         question: "¿Quiénes forman la trilogía de Padres de la Patria Dominicana?",
-        image: "/Images/padresDeLaPatria.jpeg",
+        image: "https://almomento.net/wp-content/uploads/2019/06/foto-2-1.jpg",
         answers: [
             { text: "Duarte, Luperón y Báez", correct: false },
             { text: "Duarte, Sánchez y Mella", correct: true },
@@ -66,7 +66,7 @@ const questions = [
     },
     {
         question: "¿Qué país colonizó a la isla de La Española primero?",
-        image: "/Images/española.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfG-flkMBvzdlugIKH_nnYhZDb5SMOY7ND8Q&s",
         answers: [
             { text: "Francia", correct: false },
             { text: "Inglaterra", correct: false },
@@ -76,7 +76,7 @@ const questions = [
     },
     {
         question: "¿Cómo se llamó el primer asentamiento europeo permanente en América, fundado en territorio dominicano?",
-        image: "/Images/laIsabela.jpg",
+        image: "https://0901.static.prezi.com/preview/v2/urd3qzchkg2sxowbmokkym54cd6jc3sachvcdoaizecfr3dnitcq_3_0.png",
         answers: [
             { text: "La Isabela", correct: true },
             { text: "Santo Domingo", correct: false },
@@ -86,7 +86,7 @@ const questions = [
     },
     {
         question: "¿Cuál fue la dictadura más larga en la historia de la República Dominicana?",
-        image: "/Images/dictadura.jpeg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9Dvsqi98NlhUjB4Yxlc0k9JYsmt2FZRMyA&s",
         answers: [
             { text: "La de Pedro Santana", correct: false },
             { text: "La de Ulises Heureaux", correct: false },
@@ -96,7 +96,7 @@ const questions = [
     },
     {
         question: "¿Qué ocurrió el 30 de mayo de 1961 en la República Dominicana?",
-        image: "/Images/banderaDominicana.webp",
+        image: "https://i.pinimg.com/736x/dc/0c/5c/dc0c5cae9c3aa05d479da37c678f7c40.jpg",
         answers: [
             { text: "Se proclamó la independencia", correct: false },
             { text: "Se fundó la Trinitaria", correct: false },

@@ -6,7 +6,7 @@
 const questions = [
     {
         question: "¿Cual es el la montaña mas grande del mundo?",
-        image: "https://raw.githubusercontent.com/jasielr18/portfolio2.0/refs/heads/main/Images/monta%C3%B1as.avif",
+        image: "https://cdn0.geoenciclopedia.com/es/posts/8/0/0/montanas_8_orig.jpg",
         answers:[
             {text: "Makalu", correct: false},
             {text: "Nanga Parbat", correct: false},

@@ -6,7 +6,7 @@
 const questions = [
     {
         question: "¿Cual es el la montaña mas grande del mundo?",
-        image: "C:\Users\jasie\Desktop\Programming\Projects\My portfolio\Images\montanas.avif",
+        image: "https://raw.githubusercontent.com/jasielr18/portfolio2.0/refs/heads/main/Images/monta%C3%B1as.avif",
         answers:[
             {text: "Makalu", correct: false},
             {text: "Nanga Parbat", correct: false},
